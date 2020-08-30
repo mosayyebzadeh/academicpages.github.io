@@ -64,3 +64,10 @@ The generated synthetic trace tcan be used to exercise simulation or real storag
 
 Validation is the last important step. We need to compare simulated storage system's behavior using the generated and original traces to be sure that the synthetic trace is accurate and useful.
 
+Previous Projects
+======
+**Elastic Secure Infrastructure**
+
+Bolted is a bare metal cloud architecture to support security sensitive tenants. Security sensitive tenants are entities such as hospitals or financial institutes that have both the expertise and desire or requirement to trust their own security arrangements over those of a cloud provider. This work is a collaboration between the Mass Open Cloud and our industry partners.
+
+ 
