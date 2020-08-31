@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-Please find my latest CV [here](https://mosayyebzadeh.github.io/files/cv.pdf)
+Please find my latest CV [here](https://mosayyebzadeh.github.io/files/cv.pdf).
