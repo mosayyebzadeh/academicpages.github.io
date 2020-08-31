@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "Projects"
-permalink: /projects/
+title: "Research"
+permalink: /research/
 author_profile: true
 ---
 
-Current Projects
+Current Research
 ======
 **Distributed Storage**
 
@@ -54,7 +54,7 @@ The generated synthetic trace tcan be used to exercise simulation or real storag
 
 Validation is the last important step. We need to compare simulated storage system's behavior using the generated and original traces to be sure that the synthetic trace is accurate and useful.
 
-Previous Projects
+Previous Research
 ======
 **Elastic Secure Infrastructure**
 
