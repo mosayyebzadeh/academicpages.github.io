@@ -1,12 +1,10 @@
 ---
 layout: archive
-title: "Research"
+title: "Current Research"
 permalink: /research/
 author_profile: true
 ---
 
-Current Research
-======
 **Distributed Storage**
 
 The values offered by public cloud services are clear for analytic workloads. Specialized hardware such as GPUs for doing AI/ML may make more sense to effectively lease with Opex rather than invest Capex on infrastructure that is not continually utilized. However, it may not make sense to build large data sets inside public clouds due both to the cost multiple compared to building out and maintaining private infrastructure and the lock-in nature of using public cloud services. These drivers then lead toward a hybrid architecture where large data sets are built and maintained in private clouds, but compute/analytic clusters are spun up in public clouds to the actual analytics on these data sets.
