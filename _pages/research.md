@@ -19,7 +19,7 @@ this work will be the first step in an aggressive research agenda on hybrid clou
 
 
 <div style="width: 400px; height: 400px;">
-    <img src="/images/distributed_storage.jpg" width="100%" height="100%" class="center">
+    <img src="/images/distributed_storage.jpg" width="100%" height="100%" class="aligncenter" align="middle">
 </div>
 
 **Caching System**
