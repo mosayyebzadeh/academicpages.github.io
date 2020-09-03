@@ -2,7 +2,6 @@
 layout: archive
 title: "Current Research"
 permalink: /research/
-excerpt:<br/><img src='/images/bolted.jpg'>
 author_profile: true
 ---
 
@@ -18,6 +17,8 @@ We have implemented a durable write back cache and built a distributed directory
 While the focus is on the research that we expect to explore with this platform, to support real workloads it is critical that the work is properly integrated into the complex Ceph code base. Therefore, all the changes are reviewed with the lead RGW developers, and a set of changes are already being integrated upstream. 
 this work will be the first step in an aggressive research agenda on hybrid cloud.  I am interested in exploring how caching of immutable object storage can be used to enable data to be efficiently accessed by multiple tenants from multiple datalakes in many cloud regions; essentially creating a global storage system. 
 
+
+excerpt:<br/><img src='/images/distributed_storage.jpg'>
 
 **Caching System**
 
@@ -58,4 +59,7 @@ Previous Research
 
 Bolted is a bare metal cloud architecture to support security sensitive tenants. Security sensitive tenants are entities such as hospitals or financial institutes that have both the expertise and desire or requirement to trust their own security arrangements over those of a cloud provider. This work is a collaboration between the Mass Open Cloud and our industry partners.
 
+<div style="width: 400px; height: 400px;">
+    <img src="/images/bolted.jpg" width="50%" height="50%">
+</div>
 
