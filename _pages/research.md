@@ -18,7 +18,9 @@ While the focus is on the research that we expect to explore with this platform,
 this work will be the first step in an aggressive research agenda on hybrid cloud.  I am interested in exploring how caching of immutable object storage can be used to enable data to be efficiently accessed by multiple tenants from multiple datalakes in many cloud regions; essentially creating a global storage system. 
 
 
-<br/><img src='/images/distributed_storage.jpg'>
+<div style="width: 400px; height: 400px;">
+    <img src="/images/distributed_storage.jpg" width="100%" height="100%" class="center">
+</div>
 
 **Caching System**
 
@@ -53,6 +55,10 @@ The generated synthetic trace tcan be used to exercise simulation or real storag
 
 Validation is the last important step. We need to compare simulated storage system's behavior using the generated and original traces to be sure that the synthetic trace is accurate and useful.
 
+<div style="width: 400px; height: 400px;">
+    <img src="/images/workload_generator.jpg" width="100%" height="100%" class="center">
+</div>
+
 Previous Research
 ======
 **Elastic Secure Infrastructure**
@@ -60,6 +66,6 @@ Previous Research
 Bolted is a bare metal cloud architecture to support security sensitive tenants. Security sensitive tenants are entities such as hospitals or financial institutes that have both the expertise and desire or requirement to trust their own security arrangements over those of a cloud provider. This work is a collaboration between the Mass Open Cloud and our industry partners.
 
 <div style="width: 400px; height: 400px;">
-    <img src="/images/bolted.jpg" width="50%" height="50%">
+    <img src="/images/bolted.jpg" width="100%" height="100%" class="center">
 </div>
 
