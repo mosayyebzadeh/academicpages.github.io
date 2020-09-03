@@ -17,7 +17,7 @@ We have implemented a durable write back cache and built a distributed directory
 While the focus is on the research that we expect to explore with this platform, to support real workloads it is critical that the work is properly integrated into the complex Ceph code base. Therefore, all the changes are reviewed with the lead RGW developers, and a set of changes are already being integrated upstream. 
 this work will be the first step in an aggressive research agenda on hybrid cloud.  I am interested in exploring how caching of immutable object storage can be used to enable data to be efficiently accessed by multiple tenants from multiple datalakes in many cloud regions; essentially creating a global storage system. 
 
-
+<br/><img src='/images/bolted.jpg'>
 
 **Caching System**
 
