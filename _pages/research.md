@@ -18,7 +18,7 @@ While the focus is on the research that we expect to explore with this platform,
 this work will be the first step in an aggressive research agenda on hybrid cloud.  I am interested in exploring how caching of immutable object storage can be used to enable data to be efficiently accessed by multiple tenants from multiple datalakes in many cloud regions; essentially creating a global storage system. 
 
 
-excerpt:<br/><img src='/images/distributed_storage.jpg'>
+<br/><img src='/images/distributed_storage.jpg'>
 
 **Caching System**
 
