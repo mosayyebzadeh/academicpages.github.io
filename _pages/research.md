@@ -31,7 +31,7 @@ To get good performance for data stored in Object storage services like S3, data
 
 <center>
 <div style="width: 400px; height: 400px; text-align:center;">
-    <img src="/images/cache.jpg" width="100%" height="100%" class="center">
+<img src="/images/cache.jpg" width="100%" height="100%" class="center">
 </div>
 </center>
 
@@ -59,7 +59,7 @@ and 5) enables other researcher to create new models consistent with their trace
 
 <center>
 <div style="width: 500px; height: 200px; text-align:center;">
-    <img src="/images/workload_generator.jpg" width="100%" height="100%" class="center">
+<img src="/images/workload_generator.jpg" width="100%" height="100%" class="center">
 </div>
 </center>
 
@@ -81,7 +81,7 @@ Bolted is a bare metal cloud architecture to support security sensitive tenants.
 
 <center>
 <div style="width: 400px; height: 400px;">
-    <img src="/images/bolted.jpg" width="100%" height="100%" class="center">
+<img src="/images/bolted.jpg" width="100%" height="100%" class="center">
 </div>
 </center>
 
