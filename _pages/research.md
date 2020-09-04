@@ -18,10 +18,8 @@ While the focus is on the research that we expect to explore with this platform,
 this work will be the first step in an aggressive research agenda on hybrid cloud.  I am interested in exploring how caching of immutable object storage can be used to enable data to be efficiently accessed by multiple tenants from multiple datalakes in many cloud regions; essentially creating a global storage system. 
 
 
-<div style="width: 400px; height: 400px; text-align:center;">
-    <center><img src="/images/distributed_storage.jpg" width="100%" height="100%" class="aligncenter" align="middle">
-    </center>
-</div>
+<center><img src="/images/distributed_storage.jpg" width="100%" height="100%" class="aligncenter" align="middle">
+</center>
 
 **Caching System**
 
@@ -56,7 +54,7 @@ The generated synthetic trace tcan be used to exercise simulation or real storag
 
 Validation is the last important step. We need to compare simulated storage system's behavior using the generated and original traces to be sure that the synthetic trace is accurate and useful.
 
-<div style="width: 400px; height: 400px;">
+<div style="width: 400px; height: 400px; text-align:center;">
     <img src="/images/workload_generator.jpg" width="100%" height="100%" class="center">
 </div>
 
