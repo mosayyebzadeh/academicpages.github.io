@@ -19,7 +19,7 @@ this work will be the first step in an aggressive research agenda on hybrid clou
 
 
 <center>
-<div style="width: 400px; height: 400px; text-align:center;">
+<div style="width: 300px; height: 300px; text-align:center;">
 <img src="/images/distributed_storage.jpg" width="100%" height="100%" class="aligncenter" align="middle">
 </div>
 </center>
@@ -27,6 +27,14 @@ this work will be the first step in an aggressive research agenda on hybrid clou
 **Caching System**
 
 To get good performance for data stored in Object storage services like S3, data analysis clusters need to cache data locally. Recently these caches have started taking into account higher-level information from analysis framework, allowing prefetching based on predictions of future data accesses. There is, however, a broader opportunity; rather than using this information to predict one future, we can use it to select a future that is best for caching.
+
+
+<center>
+<div style="width: 400px; height: 400px; text-align:center;">
+    <img src="/images/cache.jpg" width="100%" height="100%" class="center">
+</div>
+</center>
+
 
 The goal of this project is to develop a system for caching and prefetching analytic framework input data accessed from remote storage.
 This project aims to exploit the directed acyclic graph (DAG) of inter-task dependencies used by data-parallel frameworks such as Spark, Pig, and Hive to improve application performance, by optimizing caching for the critical path through the DAG for the application.
@@ -48,6 +56,13 @@ Our goal in this project is to develop a workload generator that can be used to 
 4) enables sensitivity analysis of the system
 and 5) enables other researcher to create new models consistent with their traces
 
+
+<center>
+<div style="width: 500px; height: 200px; text-align:center;">
+    <img src="/images/workload_generator.jpg" width="100%" height="100%" class="center">
+</div>
+</center>
+
 To do this, we first analyze the industry traces we have. 
 In this way, we can understand and extract key characteristics of the traces (such as job inter-arrival time, size of files, characteristics of queries(DAGs), user behavior, ...).
 In the next step, we model trace characteristics based on statistical distribution (e.g., model job submission inter-arrival time with poisson distribution, object size with heavy tail distributions). 
@@ -57,9 +72,6 @@ The generated synthetic trace tcan be used to exercise simulation or real storag
 
 Validation is the last important step. We need to compare simulated storage system's behavior using the generated and original traces to be sure that the synthetic trace is accurate and useful.
 
-<div style="width: 400px; height: 400px; text-align:center;">
-    <img src="/images/workload_generator.jpg" width="100%" height="100%" class="center">
-</div>
 
 Previous Research
 ======
@@ -67,7 +79,9 @@ Previous Research
 
 Bolted is a bare metal cloud architecture to support security sensitive tenants. Security sensitive tenants are entities such as hospitals or financial institutes that have both the expertise and desire or requirement to trust their own security arrangements over those of a cloud provider. This work is a collaboration between the Mass Open Cloud and our industry partners.
 
+<center>
 <div style="width: 400px; height: 400px;">
     <img src="/images/bolted.jpg" width="100%" height="100%" class="center">
 </div>
+</center>
 
