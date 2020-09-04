@@ -11,6 +11,13 @@ The values offered by public cloud services are clear for analytic workloads. Sp
 
 Maintaining a hybrid architecture as described introduces challenges with latency and bandwidth to the public cloud compute cluster from the private data lake. 
 
+<center>
+<div style="width: 300px; height: 300px; text-align:center;">
+<img src="/images/distributed_storage.jpg" width="100%" height="100%" class="aligncenter" align="middle">
+</div>
+</center>
+
+
 In this project, we design and implement a new hybrid cloud caching architecture to maximize throughput of these leased analytics clusters and avoid re-reading the same data from the external private data lake. 
 In the first step, we explore caching policies, building on our original D3N work that integrated a read-only distributed cache into Ceph’s S3 implementation (i.e., the Rados Gateway (RGW)).  
 We have implemented a durable write back cache and built a distributed directory that is critical to implementing the different policies that we want to explore.  
@@ -18,19 +25,13 @@ While the focus is on the research that we expect to explore with this platform,
 this work will be the first step in an aggressive research agenda on hybrid cloud.  I am interested in exploring how caching of immutable object storage can be used to enable data to be efficiently accessed by multiple tenants from multiple datalakes in many cloud regions; essentially creating a global storage system. 
 
 
-<center>
-<div style="width: 300px; height: 300px; text-align:center;">
-<img src="/images/distributed_storage.jpg" width="100%" height="100%" class="aligncenter" align="middle">
-</div>
-</center>
-
 **Caching System**
 
 To get good performance for data stored in Object storage services like S3, data analysis clusters need to cache data locally. Recently these caches have started taking into account higher-level information from analysis framework, allowing prefetching based on predictions of future data accesses. There is, however, a broader opportunity; rather than using this information to predict one future, we can use it to select a future that is best for caching.
 
 
 <center>
-<div style="width: 400px; height: 400px; text-align:center;">
+<div style="width: 400px; height: 350px; text-align:center;">
 <img src="/images/cache.jpg" width="100%" height="100%" class="center">
 </div>
 </center>
