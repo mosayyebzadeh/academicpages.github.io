@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
   * A Community Cache with Complete Information,
-    M. Abdi, A. Mosayyebzadeh, M. H. Hajkazemi, E. Kaynar, A. Turk, O. Krieger, P. Desnoyers, To appear in 19th USENIX Conference on File and Storage Technologies (FAST '21), 2021.
+    M. Abdi, A. Mosayyebzadeh, M. H. Hajkazemi, E. Kaynar, A. Turk, O. Krieger, P. Desnoyers, 19th {USENIX} Conference on File and Storage Technologies (FAST '21), 2021. [[paper](https://www.usenix.org/system/files/fast21-abdi.pdf)]
 
   * Supporting Security Sensitive Tenants in a Bare-Metal Cloud,
     A. Mosayyebzadeh et al., {USENIX} Annual Technical Conference (ATC'19), 2019. [[paper](https://www.usenix.org/system/files/atc19-mosayyebzadeh.pdf)]
